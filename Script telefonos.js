@@ -14,7 +14,4 @@ if (startsWith === '+54') {
   }
 }
 
-
-
-console.log(correctedPhoneNumber);
 return correctedPhoneNumber;
