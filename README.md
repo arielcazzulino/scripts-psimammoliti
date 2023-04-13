@@ -1,6 +1,8 @@
 ![ops psi mammoliti](https://user-images.githubusercontent.com/66747959/231828975-ab0754ac-d29d-451a-83b6-228dad38be92.jpg)
 # Scripts PsiMammoliti
-Este repositorio contiene varios scripts que pueden ser útiles para implementar en diferentes escenarios de Make o automations de Airtable. Los scripts están ordenados alfabéticamente y cada uno cumple una función específica. A continuación se describe brevemente lo que hace cada uno:
+Este repositorio contiene varios scripts que pueden ser útiles para implementar en diferentes escenarios de Make o automations de Airtable. Los scripts de este repositorio están organizados por carpetas según el lenguaje de programación utilizado para su desarrollo. Dentro de dichas carpetas, los scripts están ordenados alfabéticamente y cada uno cumple una función específica. A continuación se describe brevemente lo que hace cada uno:
+
+## Carpeta Javascript:
 
 ### Capitalize.js:
 Este script contiene una función que capitaliza la primera letra de cada palabra en una cadena de texto. La función divide el texto en un array de palabras, capitaliza la primera letra de cada palabra y luego las une nuevamente en una nueva cadena de texto. Esta función puede ser útil para normalizar nombres o títulos de manera uniforme.
