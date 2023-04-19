@@ -12,3 +12,15 @@ Este script contiene un código que permite calcular los días transcurridos des
 
 ### Teléfonos.js:
 Este script contiene un código que corrige los números de teléfono que no están en el formato correcto. Si el número de teléfono comienza con "+54" o "+52", la función verifica si el cuarto dígito es el número "9" o "1", respectivamente. Si el número no cumple con este formato, la función agrega el número correcto para asegurarse de que esté en el formato adecuado. Este script puede ser útil para normalizar los números de teléfono en un formato específico antes de enviar mensajes o realizar llamadas.
+
+### delete_element_from_multiselect.js:
+Este script permite eliminar un elemento específico de un campo multiselect en una tabla de Airtable. El script utiliza la API de Airtable para obtener los registros de la tabla y actualiza el registro específico que se desea modificar.
+
+Para utilizar este script, se deben seguir los siguientes pasos:
+
+1. Abrir el script y definir la variable "table" como la tabla en la que se desea eliminar el elemento del campo multiselect.
+2. Definir la variable "field" como el campo multiselect en el que se desea eliminar el elemento.
+3. Definir la variable "reasonToRemove" como el nombre del elemento que se desea eliminar.
+4. Definir la variable "recordToUpdate" como el ID del registro que se desea actualizar.
+
+El script cargará todos los registros de la tabla y buscará el registro específico que se desea actualizar utilizando el ID del registro. Luego, obtendrá el valor actual del campo multiselect en el registro y filtrará los elementos del campo para excluir el elemento que se desea eliminar. Finalmente, actualizará el registro con el nuevo valor del campo multiselect sin el elemento eliminado. Es importante tener en cuenta que este script está diseñado para modificar un registro específico y eliminar un elemento específico del campo multiselect. Si se desea eliminar el mismo elemento de varios registros, se debe ejecutar el script varias veces, cambiando el valor de "recordToUpdate" por cada registro que se desee modificar.
